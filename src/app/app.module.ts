@@ -14,7 +14,9 @@ import { NavbarComponent } from './components/layout/navbar/navbar.component';
 import { FeedComponent } from './components/layout/main/feed/feed.component';
 import { StoriesComponent } from './components/layout/main/stories/stories.component';
 import { SidebarComponent } from './components/layout/main/sidebar/sidebar.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,11 +28,13 @@ import { SidebarComponent } from './components/layout/main/sidebar/sidebar.compo
     NavbarComponent,
     FeedComponent,
     StoriesComponent,
-    SidebarComponent
+    SidebarComponent    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
