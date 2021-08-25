@@ -1,0 +1,19 @@
+/** Feed **/
+
+
+/** Container **/
+
+.feed {
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+
+/** Cards **/
+
+.card {
+    margin: 15px;
+}

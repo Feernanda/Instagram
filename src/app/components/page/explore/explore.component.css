@@ -1,0 +1,12 @@
+/** Carrusel **/
+
+.carrusel {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.carrusel__img {
+    width: 40%;
+}

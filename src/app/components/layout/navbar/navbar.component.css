@@ -68,5 +68,5 @@
 
 .icon__userProfile {
     width: 22px;
-    background-size: cover;
+    border-radius: 50%;
 }

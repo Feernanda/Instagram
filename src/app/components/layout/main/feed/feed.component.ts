@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeedComponent implements OnInit {
 
+  base: any = [
+    {
+      img: "assets/img/cover 1.png",
+      p: "Hi, im playing!"
+    },
+    {
+      img: "assets/img/cover 2.png",
+      p: "Hi, im playing!"
+    },
+    {
+      img: "assets/img/cover 3.png",
+      p: "Hi, im playing!"
+    }   
+]
+
   constructor() { }
 
   ngOnInit(): void {

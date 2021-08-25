@@ -15,8 +15,11 @@ import { FeedComponent } from './components/layout/main/feed/feed.component';
 import { StoriesComponent } from './components/layout/main/stories/stories.component';
 import { SidebarComponent } from './components/layout/main/sidebar/sidebar.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule, ReactiveFormsModule, Validators } from '@angular/forms'; 
 
- 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,8 +36,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FlexLayoutModule
-   
+    FlexLayoutModule,
+    NgbModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    Validators
+
   ],
   providers: [],
   bootstrap: [AppComponent]

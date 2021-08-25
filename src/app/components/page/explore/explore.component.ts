@@ -11,5 +11,5 @@ export class ExploreComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  images = ['assets/img/img1.jpg', 'assets/img/img2.jpg', 'assets/img/im3.jpg','assets/img/img4.jpg'];
 }
