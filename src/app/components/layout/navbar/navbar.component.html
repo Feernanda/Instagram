@@ -1,9 +1,9 @@
-<nav class="navbar" fxFlex="100" fxLayoutAlign="center center">
-    <div class="nav__wrapper" fxFlex="60" fxLayout="row" fxLayoutAlign="space-around center">
+<nav class="navbar" fxFlex="100" fxFlex.lt-sm="100" fxLayoutAlign="center center">
+    <div class="nav__wrapper" fxFlex="60" fxLayout="row" fxLayoutAlign="space-around center" fxLayoutAlign.lt-sm="space-around center">
         <img src="assets/img/logo.PNG" class="brand__img" fxLayout="row" fxFlex="10" fxLayoutAlign="center center">
         <input type="text" class="navbar__search" placeholder="search">
         <div class="nav__items" fxLayout="row" fxLayoutAling="space-between center">
-            <img src="assets/img/home.PNG" alt="home icon" class="nav__icon">
+            <img src="assets/img/home.PNG" alt="home icon" [routerLink]="['']" routerLinkActive="active" class="nav__icon">
             <img src="assets/img/messenger.PNG" alt="home icon" class="nav__icon">
             <img src="assets/img/add.PNG" alt="home icon" class="nav__icon">
             <img src="assets/img/explore.PNG" alt="home icon" class="nav__icon" [routerLink]="['/explore']" routerLinkActive="active">

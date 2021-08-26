@@ -1,12 +1,15 @@
-<div class="form">
-    <form [formGroup]="signupForm">
-        <label>User:</label>
-        <input formControlName="name" type="text">
+<div class="form" fxFlex="100" fxLayoutAlign="space-around center">
+    <form class="form__container" [formGroup]="signupForm">
+        <label class="form__text">Nombre:</label>
+        <input formControlName="nombre" type="text">
         <br>
-        <label>Email:</label>
+        <label class="form__text">Usuario:</label>
+        <input formControlName="usuario" type="text">
+        <br>
+        <label class="form__text">Email:</label>
         <input formControlName="email" type="email">
         <br>
-        <label>Password:</label>
+        <label class="form__text">Password:</label>
         <input formControlName="password" type="password">
         <br>
         <button class="btn btn-primary" [disabled]="signupForm.invalid" type="submit">Submit</button>

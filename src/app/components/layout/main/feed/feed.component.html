@@ -1,14 +1,22 @@
-<div class="feed" fxFlex="100" fxLayoutAlign="center center">
-    <div fxFlex="60" fxLayoutAlign="center center">
-        <div fxFlex="100" fxLayout="row wrap" fxLayoutAlign="space-around center">
+<div class="feed" fxFlex="100" fxFlex.lt-sm="100" fxLayoutAlign="center center">
+    <div fxFlex="60" fxFlex.lt-sm="100" fxLayoutAlign="center center">
+        <div fxFlex="100" fxLayoutAlign="space-around center">
             <div fxFlex="60" fxLayout="column" fxLayoutAlign="space-between center">
                 <div class="card" *ngFor="let item of base">
                     <img class="card-img-top" src="{{item.img}}" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">{{item.p}}</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+                        <img class="card__icon" src="{{item.heart}}" alt="Heart Icon">
+                        <img class="card__icon" src="{{item.comment}}" alt="Comment Icon">
+                        <img class="card__icon" src="{{item.share}}" alt="Share Icon">
+                        <img class="card__save" src="{{item.save}}" alt="Save Icon">
                     </div>
+                    <p class="card__text card__ user">{{item.likes}}</p>
+                    <p class="card__text card__user">{{item.username}}</p>
+                    <p class="card__text">{{item.post}}</p>
+                    <p class="card__text">{{item.time}}</p>
+                    <img class="card__icon" src="{{item.smile}}" alt="Save Icon">
                 </div>
             </div>
         </div>
     </div>
+</div>

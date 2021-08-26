@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-
+import { Component, OnInit } from '@angular/core';
+import { Validators, FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-configuration',
@@ -20,7 +19,7 @@ signupForm: FormGroup
       email: ['', Validators.compose([Validators.email, Validators.required])],
       password: ['', Validators.required]
     })
-  
-  
   }
+
+
 }

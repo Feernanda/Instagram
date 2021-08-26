@@ -22,9 +22,14 @@
     padding: 5px 0;
 }
 
-.nav__wrapper {
-    max-width: 1000px;
-    height: 100%;
+@media (max-width: 600px) {
+    .navbar {
+        width: 100%;
+        height: 50px;
+        background: #fff;
+        border-bottom: 1px solid #dfdfdf;
+        padding: 5px 0;
+    }
 }
 
 .brand__img {
@@ -46,6 +51,8 @@
 
 .navbar__search {
     color: rgba(0, 0, 0, 0.5);
+    padding-left: 75px;
+    padding-bottom: 7px;
 }
 
 
@@ -60,7 +67,6 @@
     height: 100%;
     cursor: pointer;
     margin: 0 10px;
-    display: inline-block;
 }
 
 

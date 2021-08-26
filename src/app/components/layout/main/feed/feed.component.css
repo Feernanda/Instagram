@@ -3,17 +3,30 @@
 
 /** Container **/
 
-.feed {
-    padding: 40px;
-    background: #fff;
-    border: 1px solid #dfdfdf;
-    border-radius: 2px;
-    padding: 10px;
-}
+.feed {}
 
 
 /** Cards **/
 
 .card {
     margin: 15px;
+}
+
+.card__icon {
+    width: 5%;
+    margin: 5px;
+    padding-left: -15px;
+}
+
+.card__save {
+    width: 5%;
+    margin: 5px;
+    padding-left: -70px;
+}
+
+.card__text {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 25px;
 }
