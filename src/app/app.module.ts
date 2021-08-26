@@ -16,7 +16,7 @@ import { StoriesComponent } from './components/layout/main/stories/stories.compo
 import { SidebarComponent } from './components/layout/main/sidebar/sidebar.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { FormsModule, ReactiveFormsModule, Validators } from '@angular/forms'; 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
 
 
 
@@ -41,7 +41,6 @@ import { FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    Validators
 
   ],
   providers: [],
