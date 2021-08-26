@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Validators, FormGroup, FormBuilder, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-configuration',
@@ -23,5 +23,12 @@ signupForm: FormGroup
   
   ngOnInit(): void {
   }
+
+  enviar(){
+    
+  }
+
+
+
 
 }

@@ -1,6 +1,6 @@
 <div class="formulario">
     <h1>Formulario</h1>
-    <form [formGroup]="signupForm" (ngSubmit)="enviar(signupForm.value)">
+    <form [formGroup]="signupForm" (ngSubmit)="enviar()">
         <label>Nombre:</label>
         <input formControlName="nombre" type="text">
         <br>
