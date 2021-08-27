@@ -1,20 +1,35 @@
 /**Form Container **/
 
-.form {
+.form__container {
     background: #fff;
     border: 1px solid #dfdfdf;
-    padding: 50px;
 }
-
-
-/**Form Text **/
 
 .form__text {
-    font-family: 'roboto', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    padding-right: 5px;
+    padding: 15px;
 }
 
+.button__container {
+    padding-top: 30px;
+}
 
-/**Form Input **/
+.button__icon {
+    width: 45px;
+}
+
+.user__profile {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.user__name {
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.user__option {
+    font-size: 15px;
+    color: rgb(29, 26, 206);
+}

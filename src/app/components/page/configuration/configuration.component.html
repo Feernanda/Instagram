@@ -1,5 +1,11 @@
-<div class="form" fxFlex="100" fxLayoutAlign="space-around center">
-    <form class="form__container" [formGroup]="signupForm">
+<div class="form__container">
+    <form class="text-center border border-light p-5">
+
+        <img class="user__profile" src="assets/img/user-profile.jpeg">
+        <p class="h4 mb-4 user__name">Antonio_Becerra</p>
+        <a href="" class="user__option">Change Profile Picture</a>
+        <br>
+
         <label class="form__text">Nombre:</label>
         <input formControlName="nombre" type="text">
         <br>
@@ -12,6 +18,36 @@
         <label class="form__text">Password:</label>
         <input formControlName="password" type="password">
         <br>
-        <button class="btn btn-primary" [disabled]="signupForm.invalid" type="submit">Submit</button>
+
+        <div class="d-flex justify-content-around">
+
+
+            <a href="">Forgot password?</a>
+        </div>
+
+        <button mdbBtn color="info" block="true" class="my-4" type="submit">Sign in</button>
+
+        <p>Not a member?
+            <a href="">Register</a>
+        </p>
+
+        <p>or sign in with:</p>
+
+        <div class="button__container" fxFlex="100" FxLayout="row" fxLayoutAlign="center center">
+            <div class="button__wrapper" fxFlex="50" fxLayoutAlign="center center">
+                <a type="button" class="light-blue-text mx-2">
+                    <img class="button__icon" src="assets/img/logotipo-circular-de-facebook.png">
+                </a>
+                <a type="button" class="light-blue-text mx-2">
+                    <img class="button__icon" src="assets/img/instagram.png">
+                </a>
+                <a type="button" class="light-blue-text mx-2">
+                    <img class="button__icon" src="assets/img/signo-de-twitter.png">
+                </a>
+                <a type="button" class="light-blue-text mx-2">
+                    <img class="button__icon" src="assets/img/signo-de-github.png">
+                </a>
+            </div>
+        </div>
     </form>
 </div>

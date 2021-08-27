@@ -1,13 +1,15 @@
 .add {
-    margin: 10px;
-}
-
-.add:hover {
-    opacity: 0.5;
+    background: #fff;
+    border: 1px solid #dfdfdf;
 }
 
 .add__img {
-    width: 60%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 500px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.add__img:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
