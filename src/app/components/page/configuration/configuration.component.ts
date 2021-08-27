@@ -13,9 +13,9 @@ signupForm: FormGroup
   constructor( private _builder: FormBuilder) { 
     this.signupForm = this._builder.group({
       nombre: [''],
-      usuario: ['', Validators.required],
-      email: ['', Validators.compose([Validators.email, Validators.required])] ,
-      clave: ['', Validators.required]
+      usuario: ['', [Validators.required]],
+      email: ['', [Validators.email, Validators.required]] ,
+      clave: ['', [Validators.required]]
     })
   }
   
@@ -25,7 +25,7 @@ signupForm: FormGroup
   }
 
   enviar(){
-    
+
   }
 
 
