@@ -16,7 +16,8 @@ import { StoriesComponent } from './components/layout/main/stories/stories.compo
 import { SidebarComponent } from './components/layout/main/sidebar/sidebar.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AddComponent } from './components/page/add/add.component'; 
 
 
 
@@ -31,7 +32,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NavbarComponent,
     FeedComponent,
     StoriesComponent,
-    SidebarComponent    
+    SidebarComponent,
+    AddComponent    
   ],
   imports: [
     BrowserModule,

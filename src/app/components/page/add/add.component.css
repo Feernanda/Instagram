@@ -1,0 +1,13 @@
+.add {
+    margin: 10px;
+}
+
+.add:hover {
+    opacity: 0.5;
+}
+
+.add__img {
+    width: 60%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
